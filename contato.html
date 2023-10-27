@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--link css-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-contato.css">
+    <title>Contato | WebSite</title>
+</head>
+<body>
+    <!-- header-->
+    <header style="background-image: url('img/background-Home1.3.jpg');">
+        <!--container-->
+     <div class="container">
+        <nav>
+            <a href="index.html">
+                <img class="logo" src="/img/logo.png" alt="Logo" data-aos="fade-down">
+            </a>
+             <ul class="ul">
+                <a href="index.html">Home</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="servicos.html">Servicos</a>
+                <a class="btn" href="contato.html">Contato</a>
+                <div class="close-icon" onclick="closeMenu()">
+                    <i class="fa fa-times-circle"></i>
+                </div>
+             </ul>
+             <div class="menu-icon" onclick="openMenu()">
+                <i class="fa fa-bars"></i>
+             </div>
+        </nav>
+        <section class="banner">
+            <div class="banner-text">
+                <h1>Entre em contato</h1>
+                <p></p>
+            </div>
+        </section>
+     </div>
+    <!--end container-->
+    </header>
+    <!--end header-->
+    <section>
+
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <h2>Contato</h2>
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+            <input type="hidden" name="accessKey" value="687de2e4-7fe6-46b0-8fb1-f40fd17d0d27">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/Contato.html">
+        </form>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#"> <i class="fa fa-facebook"></i></a>
+                <a href="#"> <i class="fa fa-instagram"></i></a>
+                <a href="#"> <i class="fa fa-github"></i></a>
+                <a href="#"> <i class="fa fa-linkedin"></i></a>
+            </div>
+            <p>Desenvolvido por Átila</p>
+        </div>
+    </footer>
+    <!--end footer-->
+    <script src="js/main.js"></script>
+  </body>
+</html>

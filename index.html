@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--link css-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>WebSite</title>
+</head>
+<body>
+    <!-- header-->
+    <header>
+        <!--container-->
+     <div class="container">
+        <nav>
+            <a href="index.html">
+                <img class="logo" src="/img/logo.png" alt="Logo" data-aos="fade-down">
+            </a>
+             <ul class="ul">
+                <a href="index.html">Home</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="servicos.html">Servicos</a>
+                <a class="btn" href="contato.html">Contato</a>
+                <div class="close-icon" onclick="closeMenu()">
+                    <i class="fa fa-times-circle"></i>
+                </div>
+             </ul>
+             <div class="menu-icon" onclick="openMenu()">
+                <i class="fa fa-bars"></i>
+             </div>
+        </nav>
+        <section class="banner">
+            <div class="banner-text">
+                <h1>PesoCerto</h1>
+                <p>Aqui é onde começa sua jornada contra a obesidade</p>
+                <a href="contato.html" class="btn animate-btn">Entrar em Contato</a>
+            </div>
+        </section>
+     </div>
+    <!--end container-->
+    </header>
+    <!--end header-->
+    <!--faca mais-->
+    <section class="faca-mais">
+        <!--container-->
+        <div class="container">
+            <div class="faca-mais-text">
+                <h3>Quais os riscos que a obsesidade traz e como previnir</h3>
+                <p>
+                    
+                </p>
+                <a href="contato.html" class="btn">Saiba Mais</a>
+            </div>
+            <div class="faca-mais-img">
+                <img src="img/cerebro-exercicio-fisico.jpg" alt=""width="450px">
+            </div>
+        </div>
+        <!--end container-->
+    </section>
+    <!--end faca mais-->
+    <!--faca mais 2-->
+    <section class="faca-mais">
+        <!--container-->
+        <div class="container">
+            <div class="faca-mais-img">
+                <img src="img/exercicio-fisico.jpg" alt=""width="450px">
+            </div>
+            <div class="faca-mais-text">
+                <h3>Faça Mais Com o PesoCerto</h3>
+                <p>
+                    
+                </p>
+                <a href="sobre.html" class="btn">Sobre nós</a>
+            </div>
+        </div>
+        <!--end container-->
+    </section>
+    <!--end faca mais 2-->
+    <!--depoimentos-->
+    <section class="depoimentos">
+        <div class="container">
+            <h3>Nossos Depoimentos</h3>
+            <p>Leia o que nossos clientes falam sobre nós para o mundo</p>
+            <div class="cards">
+                <!--card item 1-->
+                <div class="cards-item">
+                    <img src="img/cliente-1.jpg" alt="Átila">
+                    <p class="nome-user">Átila Fernandes</p>
+                    <p class="depoimento-user">Adorei o site, parece até que fui eu que fiz.</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <!--end card item 1-->
+                <!--card item 2-->
+                <div class="cards-item">
+                    <img src="img/panda-cliente-2.jpg" alt="Panda">
+                    <p class="nome-user">Panda</p>
+                    <p class="depoimento-user">Não é gordura, é excesso de fofura.</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <!--end card item 2-->
+                <!--card item 3-->
+                <div class="cards-item">
+                    <img src="img/cliente-3.jpg" alt="Edu">
+                    <p class="nome-user">Edu</p>
+                    <p class="depoimento-user">Gostei do site, mas ainda falta um pouco de otimização.</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <!--end card item 3-->
+            </div>
+        </div>
+    </section>
+    <!--end depoimentos-->
+    <!--cliente-->
+    <section class="cliente">
+        <div class="container">
+            <h3>Nossos Clientes</h3>
+            <p>Prestamos serviços a todo tipo de empresa ou projeto, olhe alguns dos nossos clientes</p>
+            <div>
+                <img src="img/apple.png" alt="">
+                <img src="img/microsoft.png" alt="">
+                <img src="img/google.png" alt="">
+                <img src="img/slack.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!--end cliente-->
+    <!--faca mais-->
+    <section class="faca-mais">
+        <!--container-->
+        <div class="container">
+            <div class="faca-mais-text">
+                <h3>Faça o Calculo IMC</h3>
+                <p>
+                    A fórmula do Índice de Massa Corporal foi criada por um matemático belga chamado Lambert Quételet, no século 19. Na época, ela ganhou o nome de “Índice de Quételet”, mas, décadas mais tarde, a Organização Mundial da Saúde atribuiu o nome que conhecemos atualmente.
+O cálculo é muito útil para identificar se o indivíduo está com o peso ideal ou se está abaixo ou acima do esperado, levando em conta critérios como sobrepeso, obesidade e desnutrição.
+Apesar de ser fácil de calcular, sendo acessível a qualquer pessoa, é importante ter cautela e só tirar conclusões a partir de uma consulta com um profissional da saúde. O endocrinologista e o nutricionista são os profissionais mais capacitados para avaliar o IMC e explicar ao paciente como está sua saúde.
+                </p>
+                <a href="calculadora.html" class="btn">Calculadora IMC</a>
+            </div>
+            <div class="faca-mais-img">
+                <img src="img/grafico-imc.jpg" alt=""width="450px">
+            </div>
+        </div>
+        <!--end container-->
+    </section>
+    <!--end faca mais-->
+    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#"> <i class="fa fa-facebook"></i></a>
+                <a href="#"> <i class="fa fa-instagram"></i></a>
+                <a href="#"> <i class="fa fa-github"></i></a>
+                <a href="#"> <i class="fa fa-linkedin"></i></a>
+            </div>
+            <p>Desenvolvido por Átila</p>
+        </div>
+    </footer>
+    <!--end footer-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
